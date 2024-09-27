@@ -13,7 +13,7 @@
 // Add helpers here
 
 /* -------------------------------------------------- *
- * Router class                                       *
+ * Functionality                                      *
  * -------------------------------------------------- */
 
 export function hello(name = "world") {
