@@ -32,6 +32,7 @@ You'll need [Node.js](https://nodejs.org/en) with [Corepack](https://nodejs.org/
 | `index.html`                 | You can use this file as a playground for anything that happens clientside. Feel free to delete if this is not needed by your library.                                                                                                             |
 | `LICENSE.md` and `README.md` | Replace these with your stuff.                                                                                                                                                                                                                     |
 | `package.json`               | Update your dependencides and package metadata here.                                                                                                                                                                                               |
+| `tsconfig.json`              | Configuration for TypeScript support.                                                                                                                                                                                                              |
 
 ## Development
 

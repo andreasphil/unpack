@@ -1,5 +1,3 @@
-// @ts-check
-
 import { JSDOM } from "jsdom";
 import assert from "node:assert/strict";
 import { before, describe, test } from "node:test";
