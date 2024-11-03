@@ -62,5 +62,10 @@
     import { hello } from "./src/lib.js";
 
     document.querySelector("output").textContent = hello();
+
+    // Automatically reload on change when serving with `node --run dev`
+    new EventSource("/esbuild").addEventListener("change", () =>
+      location.reload()
+    );
   </script>
 </html>
