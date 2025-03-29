@@ -22,7 +22,7 @@ cd lib-name
 npx degit https://github.com/andreasphil/unpack
 ```
 
-You'll need [Node.js](https://nodejs.org/en) with [Corepack](https://nodejs.org/api/corepack.html) enabled to install dependencies and run tests.
+You'll need [Node.js](https://nodejs.org/en) with [npm](https://npmjs.com) to install dependencies and run tests.
 
 ### Files & folders
 
