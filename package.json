@@ -21,7 +21,7 @@
     "test:watch": "node --test --experimental-strip-types --watch",
     "build": "node --run build:types && node --run build:bundle",
     "build:types": "tsc",
-    "build:bundle": "esbuild src/lib.js --bundle --minify --target=es2023 --format=esm --outdir=dist --sourcemap",
+    "build:bundle": "esbuild src/lib.js --bundle --minify --target=es2024 --format=esm --outdir=dist --sourcemap",
     "preversion": "node --run test && node --run build; git add dist/"
   },
   "devDependencies": {
