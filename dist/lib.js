@@ -1,2 +1,7 @@
-function o(l="world"){return`Hello ${l}!`}export{o as hello};
-//# sourceMappingURL=lib.js.map
+// src/lib.js
+function hello(name = "world") {
+  return `Hello ${name}!`;
+}
+export {
+  hello
+};

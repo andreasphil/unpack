@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../src/lib.js"],
-  "sourcesContent": ["// Types --------------------------------------------------\n\n// Add types here\n\n// Utils --------------------------------------------------\n\n// Add utilities here\n\n// Main ---------------------------------------------------\n\nexport function hello(name = \"world\") {\n  return `Hello ${name}!`;\n}\n"],
-  "mappings": "AAUO,SAASA,EAAMC,EAAO,QAAS,CACpC,MAAO,SAASA,CAAI,GACtB",
-  "names": ["hello", "name"]
-}
