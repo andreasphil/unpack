@@ -1,7 +1,7 @@
 import { JSDOM } from "jsdom";
 import assert from "node:assert/strict";
 import { before, describe, test } from "node:test";
-import { hello } from "./lib.js";
+import { hello } from "./mod.js";
 
 describe("Unpack", () => {
   let window;
