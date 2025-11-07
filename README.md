@@ -13,12 +13,10 @@
 
 ## Usage
 
-The easiest way to start a new project is to fetch the template folder using [degit](https://github.com/Rich-Harris/degit):
+The easiest way to start a new project is to fetch the template folder using [giget](https://github.com/unjs/giget):
 
 ```sh
-mkdir lib-name
-cd lib-name
-npx degit https://github.com/andreasphil/unpack
+npx giget gh:andreasphil/unpack your-project-name
 ```
 
 You'll need [Node.js](https://nodejs.org/en) with [npm](https://npmjs.com) to install dependencies and run tests.
@@ -35,7 +33,7 @@ You'll need [Node.js](https://nodejs.org/en) with [npm](https://npmjs.com) to in
 
 ## Development
 
-This template is built with [esbuild](https://esbuild.github.io). Packages are managed by [npm](https://npmjs.org). Tests are powered by [Node.js' test runner](https://nodejs.org/en/learn/test-runner/introduction). The following commands are available:
+Packages are managed by [npm](https://npmjs.org). Tests are powered by [Node.js' test runner](https://nodejs.org/en/learn/test-runner/introduction). The following commands are available:
 
 ```sh
 node --run test         # Run tests once
