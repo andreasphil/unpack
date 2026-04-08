@@ -2,10 +2,10 @@
   "name": "@andreasphil/unpack",
   "version": "0.0.0",
   "description": "A minimal template for JavaScript modules",
-  "author": "Andreas Philippi",
   "license": "MIT",
-  "type": "module",
+  "author": "Andreas Philippi",
   "repository": "https://github.com/andreasphil/unpack",
+  "type": "module",
   "exports": {
     ".": {
       "import": "./mod.js",
