@@ -16,10 +16,10 @@
 The easiest way to start a new project is to fetch the template folder using [giget](https://github.com/unjs/giget):
 
 ```sh
-npx giget gh:andreasphil/unpack your-project-name
+pnpx giget gh:andreasphil/unpack your-project-name
 ```
 
-You'll need [Node.js](https://nodejs.org/en) with [npm](https://npmjs.com) to install dependencies and run tests.
+You'll need [Node.js](https://nodejs.org/en) with [pnpm](https://pnpm.io) to install dependencies and run tests.
 
 ### Files & folders
 
@@ -33,7 +33,7 @@ You'll need [Node.js](https://nodejs.org/en) with [npm](https://npmjs.com) to in
 
 ## Development
 
-Packages are managed by [npm](https://npmjs.org). Tests are powered by [Node.js' test runner](https://nodejs.org/en/learn/test-runner/introduction). The following commands are available:
+Packages are managed by [pnpm](https://pnpm.io). Tests are powered by [Node.js' test runner](https://nodejs.org/en/learn/test-runner/introduction). The following commands are available:
 
 ```sh
 node --run test         # Run tests once
